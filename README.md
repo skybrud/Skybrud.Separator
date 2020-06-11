@@ -1,6 +1,6 @@
 # Skybrud.Separator
 
-Skybrud.Separator is a small package for Umbraco 8 that adds a property editor serving as a separator to give a better view of your Umbraco content types.
+Skybrud.Separator is a small package for Umbraco 8 that adds a property editor serving as a separator to give a better overview of properties within your Umbraco content types.
 
 ## Installation
 
