@@ -1,0 +1,15 @@
+﻿.skybrud-separator {
+  border-bottom: 2px solid #F4C1BC;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-bottom: -21px;
+  z-index: 2;
+  position: relative;
+}
+.umb-property + .umb-property .skybrud-separator {
+  margin-top: -21px;
+  padding-top: 30px;
+  background: #fff;
+}

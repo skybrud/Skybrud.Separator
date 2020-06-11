@@ -1,0 +1,18 @@
+﻿{
+  "css": [
+    "/App_Plugins/Skybrud.Separator/Styles/Default.css"
+  ],
+  "propertyEditors": [
+    {
+      "alias": "Skybrud.Separator",
+      "name": "Skybrud Separator",
+      "group": "Skybrud.dk",
+      "icon": "icon-navigation-horizontal",
+      "editor": {
+        "hideLabel": true,
+        "isReadOnly": true,
+        "view": "/App_plugins/Skybrud.Separator/Views/Separator.html"
+      }
+    }
+  ]
+}

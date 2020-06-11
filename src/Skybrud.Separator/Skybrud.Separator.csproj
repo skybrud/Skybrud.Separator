@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <Authors>Anders Bjerner</Authors>
+    <Company>Skybrud.dk</Company>
+    <Description>Separator property editor for Umbraco 8.</Description>
+    <Copyright>Copyright © 2020</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Skybrud.Separator</PackageId>
+    <PackageTags>Umbraco, Separator</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/skybrud/Skybrud.Separator</PackageProjectUrl>
+    <PackageIconUrl>http://www.skybrud.dk/img/5431sk/icon/favicon.ico</PackageIconUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/skybrud/Skybrud.Separator</RepositoryUrl>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Content Include="App_Plugins\Skybrud.Separator\**\*.css" />
+    <Content Include="App_Plugins\Skybrud.Separator\**\*.html" />
+    <Content Include="App_Plugins\Skybrud.Separator\**\*.js" />
+    <Content Include="App_Plugins\Skybrud.Separator\package.manifest" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="'$(ConfigurationName)'=='Release' AND '$(BuildTools)'=='1'">
+    <Exec Command="&quot;$(ProjectDir)..\build\Skybrud.BuildTools.Tasks.exe&quot; &quot;postBuild&quot; &quot;$(ConfigurationName)&quot; &quot;$(ProjectPath)&quot; &quot;$(TargetPath)&quot;" />
+  </Target>
+
+</Project>
