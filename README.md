@@ -1,5 +1,7 @@
 # Skybrud.Separator
 
+Skybrud.Separator is a small package for Umbraco 8 that adds a property editor serving as a separator to give a better view of your Umbraco content types.
+
 ## Installation
 
 ### Install via NuGet
@@ -22,13 +24,15 @@ This package is not available for Umbraco 7. See [**CM.Seperator**](https://www.
 **Umbraco 8**  
 Download the package from Our Umbraco - the Umbraco cummunity website:
 
-- <a href="https://our.umbraco.com/packages/website-utilities/skybrud-redirects/" target="_blank"><strong>Download Umbraco package</strong></a>
+- <a href="https://our.umbraco.com/packages/website-utilities/skybrud-separator/" target="_blank"><strong>Download Umbraco package</strong></a>
 
 **Umbraco 7**  
 This package is not available for Umbraco 7. See [**CM.Seperator**](https://our.umbraco.com/packages/backoffice-extensions/cmseperator/) as an alternative.
 
 
 ### Screenshots
+
+The separator property editor helps group similar properties within an existing property group:
 
 ![image](https://user-images.githubusercontent.com/3634580/84443532-1812ef80-ac40-11ea-8077-515c48015070.png)
 
