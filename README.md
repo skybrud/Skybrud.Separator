@@ -37,6 +37,6 @@ The separator property editor helps group similar properties within an existing 
 ![image](https://user-images.githubusercontent.com/3634580/84443532-1812ef80-ac40-11ea-8077-515c48015070.png)
 
 
-[NuGetPackage]: https://www.nuget.org/packages/Skybrud.Umbraco.Redirects
-[GitHubRelease]: https://github.com/skybrud/Skybrud.Umbraco.Redirects/releases
+[NuGetPackage]: https://www.nuget.org/packages/Skybrud.Separator
+[GitHubRelease]: https://github.com/skybrud/Skybrud.Separator/releases
 
