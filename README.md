@@ -24,7 +24,7 @@ This package is not available for Umbraco 7. See [**CM.Seperator**](https://www.
 **Umbraco 8**  
 Download the package from Our Umbraco - the Umbraco cummunity website:
 
-- <a href="https://our.umbraco.com/packages/website-utilities/skybrud-separator/" target="_blank"><strong>Download Umbraco package</strong></a>
+- <a href="https://our.umbraco.com/packages/website-utilities/skybrud-separator/" target="_blank"><strong><s>Download Umbraco package</s></strong></a> *coming soon*
 
 **Umbraco 7**  
 This package is not available for Umbraco 7. See [**CM.Seperator**](https://our.umbraco.com/packages/backoffice-extensions/cmseperator/) as an alternative.
