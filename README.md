@@ -11,7 +11,7 @@ This is the recommend approach, as you install the [**NuGet Package**][NuGetPack
 Install the latest version from NuGet:
 
 ```
-Install-Package Skybrud.Separator
+Install-Package Skybrud.Separator -Version 1.0.1
 ```
 
 Or see more information on the [NuGet package page][NuGetPackage].
