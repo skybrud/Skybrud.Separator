@@ -29,6 +29,7 @@
   </ItemGroup>
   
   <ItemGroup>
+    <Content Include="../build/Skybrud.Separator.targets" PackagePath="build/Skybrud.Separator.targets"></Content>
     <Content Include="App_Plugins\Skybrud.Separator\**\*.css" />
     <Content Include="App_Plugins\Skybrud.Separator\**\*.html" />
     <Content Include="App_Plugins\Skybrud.Separator\**\*.js" />
