@@ -17,7 +17,7 @@
     <PackageTags>Umbraco, Separator</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/skybrud/Skybrud.Separator</PackageProjectUrl>
-    <PackageIconUrl>http://www.skybrud.dk/img/5431sk/icon/favicon.ico</PackageIconUrl>
+    <PackageIcon>Skybrud.png</PackageIcon>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/skybrud/Skybrud.Separator</RepositoryUrl>
   </PropertyGroup>
@@ -33,6 +33,7 @@
     <Content Include="App_Plugins\Skybrud.Separator\**\*.css" />
     <Content Include="App_Plugins\Skybrud.Separator\**\*.html" />
     <Content Include="App_Plugins\Skybrud.Separator\**\*.js" />
+    <None Include="Images\Skybrud.png" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
   <!--<Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="'$(ConfigurationName)'=='Release' AND '$(BuildTools)'=='1'">
