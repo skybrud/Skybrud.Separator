@@ -7,13 +7,13 @@ Skybrud.Separator is a small package for Umbraco that adds a property editor ser
 The Umbraco 9 version of this package is only available via NuGet. To install the package, you can use either .NET CLI:
 
 ```
-dotnet add package Skybrud.Separator --version 2.0.0-alpha001
+dotnet add package Skybrud.Separator --version 2.0.0
 ```
 
 or the older NuGet Package Manager:
 
 ```
-Install-Package Skybrud.Separator -Version 2.0.0-alpha001
+Install-Package Skybrud.Separator -Version 2.0.0
 ```
 
 **Umbraco 8**  
