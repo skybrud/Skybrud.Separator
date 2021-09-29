@@ -14,7 +14,7 @@
 
   <PropertyGroup>
     <PackageId>Skybrud.Separator</PackageId>
-    <PackageTags>Umbraco, Separator</PackageTags>
+    <PackageTags>Skybrud, Limbo, Umbraco, Separator</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/skybrud/Skybrud.Separator</PackageProjectUrl>
     <PackageIcon>Limbo.png</PackageIcon>
